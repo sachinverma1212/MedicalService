@@ -1,0 +1,411 @@
+Unnamed: 0,index,disease,workout
+0,0,Fungal infection,Practice yoga to boost immunity
+1,1,Fungal infection,Do light stretching daily
+2,2,Fungal infection,Engage in brisk walking
+3,3,Fungal infection,Perform breathing exercises
+4,4,Fungal infection,Do low-impact aerobics
+5,5,Fungal infection,Try meditation with movement
+6,6,Fungal infection,Practice balance exercises
+7,7,Fungal infection,Include gentle cycling
+8,8,Fungal infection,Do bodyweight exercises
+9,9,Fungal infection,Perform mobility drills
+10,10,Allergy,Do deep breathing exercises
+11,11,Allergy,Practice yoga
+12,12,Allergy,Try walking outdoors (low pollen days)
+13,13,Allergy,Perform stretching routines
+14,14,Allergy,Do swimming (indoor)
+15,15,Allergy,Practice tai chi
+16,16,Allergy,Do light jogging
+17,17,Allergy,Try cycling indoors
+18,18,Allergy,Perform relaxation exercises
+19,19,Allergy,Do mobility training
+20,20,GERD,Practice light yoga
+21,21,GERD,Avoid heavy workouts post meals
+22,22,GERD,Try walking after meals
+23,23,GERD,Do breathing exercises
+24,24,GERD,Perform low-intensity aerobics
+25,25,GERD,Engage in cycling
+26,26,GERD,Do Pilates
+27,27,GERD,Practice swimming
+28,28,GERD,Do low-impact cardio
+29,29,GERD,Perform posture correction exercises
+30,30,Chronic cholestasis,Perform gentle yoga
+31,31,Chronic cholestasis,Do light walking
+32,32,Chronic cholestasis,Practice tai chi
+33,33,Chronic cholestasis,Do breathing meditation
+34,34,Chronic cholestasis,Try stretching
+35,35,Chronic cholestasis,Engage in low-impact aerobics
+36,36,Chronic cholestasis,Perform water exercises
+37,37,Chronic cholestasis,Do cycling indoors
+38,38,Chronic cholestasis,Practice mobility drills
+39,39,Chronic cholestasis,Try light resistance training
+40,40,Drug Reaction,Engage in light yoga
+41,41,Drug Reaction,Do stretching
+42,42,Drug Reaction,Practice meditation
+43,43,Drug Reaction,Try slow walking
+44,44,Drug Reaction,Do tai chi
+45,45,Drug Reaction,Perform breathing exercises
+46,46,Drug Reaction,Do light aerobics
+47,47,Drug Reaction,Engage in cycling indoors
+48,48,Drug Reaction,Try swimming
+49,49,Drug Reaction,Practice mindfulness with movement
+50,50,Peptic ulcer disease,Do yoga poses for digestion
+51,51,Peptic ulcer disease,Engage in walking
+52,52,Peptic ulcer disease,Perform tai chi
+53,53,Peptic ulcer disease,Try meditation
+54,54,Peptic ulcer disease,Do light stretching
+55,55,Peptic ulcer disease,Practice posture correction
+56,56,Peptic ulcer disease,Perform core strengthening
+57,57,Peptic ulcer disease,Try swimming
+58,58,Peptic ulcer disease,Do balance training
+59,59,Peptic ulcer disease,Engage in low-intensity aerobics
+60,60,AIDS,Practice yoga
+61,61,AIDS,Engage in light walking
+62,62,AIDS,Do breathing exercises
+63,63,AIDS,Perform resistance band workouts
+64,64,AIDS,Try tai chi
+65,65,AIDS,Do cycling
+66,66,AIDS,Practice light aerobics
+67,67,AIDS,Do mobility exercises
+68,68,AIDS,Engage in stretching
+69,69,AIDS,Try meditation with movement
+70,70,Diabetes,Do brisk walking
+71,71,Diabetes,Practice yoga
+72,72,Diabetes,Engage in cycling
+73,73,Diabetes,Perform resistance training
+74,74,Diabetes,Do swimming
+75,75,Diabetes,Practice tai chi
+76,76,Diabetes,Engage in aerobics
+77,77,Diabetes,Perform stair climbing
+78,78,Diabetes,Do core strengthening
+79,79,Diabetes,Try jogging
+80,80,Gastroenteritis,Do light stretching
+81,81,Gastroenteritis,Practice breathing exercises
+82,82,Gastroenteritis,Engage in meditation
+83,83,Gastroenteritis,Try short walks
+84,84,Gastroenteritis,Perform tai chi
+85,85,Gastroenteritis,Do gentle yoga
+86,86,Gastroenteritis,Practice mobility drills
+87,87,Gastroenteritis,Try posture correction
+88,88,Gastroenteritis,Perform balance training
+89,89,Gastroenteritis,Avoid strenuous workouts
+90,90,Bronchial Asthma,Practice breathing exercises
+91,91,Bronchial Asthma,Do yoga
+92,92,Bronchial Asthma,Engage in swimming
+93,93,Bronchial Asthma,Perform walking
+94,94,Bronchial Asthma,Try cycling
+95,95,Bronchial Asthma,Do stretching
+96,96,Bronchial Asthma,Engage in tai chi
+97,97,Bronchial Asthma,Perform light aerobics
+98,98,Bronchial Asthma,Try jogging
+99,99,Bronchial Asthma,Do resistance band workouts
+100,100,Hypertension,Do brisk walking
+101,101,Hypertension,Practice yoga
+102,102,Hypertension,Engage in swimming
+103,103,Hypertension,Perform tai chi
+104,104,Hypertension,Try cycling
+105,105,Hypertension,Do meditation
+106,106,Hypertension,Engage in aerobics
+107,107,Hypertension,Perform stretching
+108,108,Hypertension,Do jogging
+109,109,Hypertension,Try resistance training
+110,110,Migraine,Practice yoga
+111,111,Migraine,Do meditation
+112,112,Migraine,Engage in light walking
+113,113,Migraine,Perform breathing exercises
+114,114,Migraine,Try tai chi
+115,115,Migraine,Do stretching
+116,116,Migraine,Engage in low-impact aerobics
+117,117,Migraine,Perform posture correction
+118,118,Migraine,Try swimming
+119,119,Migraine,Do relaxation training
+120,120,Cervical spondylosis,Do neck stretches
+121,121,Cervical spondylosis,Practice yoga
+122,122,Cervical spondylosis,Perform posture correction
+123,123,Cervical spondylosis,Do resistance band workouts
+124,124,Cervical spondylosis,Try tai chi
+125,125,Cervical spondylosis,Engage in light aerobics
+126,126,Cervical spondylosis,Perform mobility training
+127,127,Cervical spondylosis,Do shoulder shrugs
+128,128,Cervical spondylosis,Try swimming
+129,129,Cervical spondylosis,Practice core strengthening
+130,130,Paralysis (brain hemorrhage),Do physiotherapy exercises
+131,131,Paralysis (brain hemorrhage),Practice passive stretching
+132,132,Paralysis (brain hemorrhage),Perform breathing exercises
+133,133,Paralysis (brain hemorrhage),Engage in assisted walking
+134,134,Paralysis (brain hemorrhage),Do mobility drills
+135,135,Paralysis (brain hemorrhage),Practice yoga (gentle)
+136,136,Paralysis (brain hemorrhage),Try tai chi
+137,137,Paralysis (brain hemorrhage),Do resistance band workouts
+138,138,Paralysis (brain hemorrhage),Practice balance training
+139,139,Paralysis (brain hemorrhage),Engage in light aerobics
+140,140,Jaundice,Do yoga for liver health
+141,141,Jaundice,Engage in light walking
+142,142,Jaundice,Perform breathing meditation
+143,143,Jaundice,Try stretching
+144,144,Jaundice,Do tai chi
+145,145,Jaundice,Practice relaxation techniques
+146,146,Jaundice,Engage in low-intensity aerobics
+147,147,Jaundice,Perform posture correction
+148,148,Jaundice,Do balance training
+149,149,Jaundice,Try swimming
+150,150,Malaria,Rest and light stretching
+151,151,Malaria,Do breathing exercises
+152,152,Malaria,Practice yoga
+153,153,Malaria,Try short walks
+154,154,Malaria,Perform mobility drills
+155,155,Malaria,Do tai chi
+156,156,Malaria,Engage in meditation
+157,157,Malaria,Perform posture correction
+158,158,Malaria,Try relaxation techniques
+159,159,Malaria,Avoid intense workouts
+160,160,Chicken pox,Rest
+161,161,Chicken pox,Do light stretching
+162,162,Chicken pox,Practice breathing exercises
+163,163,Chicken pox,Engage in yoga
+164,164,Chicken pox,Try meditation
+165,165,Chicken pox,Do posture correction
+166,166,Chicken pox,Perform mobility drills
+167,167,Chicken pox,Do balance training
+168,168,Chicken pox,Engage in tai chi
+169,169,Chicken pox,Avoid strenuous exercise
+170,170,Dengue,Rest and hydration
+171,171,Dengue,Do light stretching
+172,172,Dengue,Practice breathing exercises
+173,173,Dengue,Try meditation
+174,174,Dengue,Engage in yoga
+175,175,Dengue,Perform posture correction
+176,176,Dengue,Do mobility training
+177,177,Dengue,Try tai chi
+178,178,Dengue,Practice relaxation exercises
+179,179,Dengue,Avoid heavy workouts
+180,180,Typhoid,Rest
+181,181,Typhoid,Engage in light stretching
+182,182,Typhoid,Practice breathing meditation
+183,183,Typhoid,Do yoga
+184,184,Typhoid,Try mobility drills
+185,185,Typhoid,Perform posture correction
+186,186,Typhoid,Engage in tai chi
+187,187,Typhoid,Do meditation
+188,188,Typhoid,Try relaxation exercises
+189,189,Typhoid,Avoid heavy exercises
+190,190,hepatitis A,Do light yoga
+191,191,hepatitis A,Practice breathing meditation
+192,192,hepatitis A,Engage in stretching
+193,193,hepatitis A,Try mobility training
+194,194,hepatitis A,Perform balance drills
+195,195,hepatitis A,Do tai chi
+196,196,hepatitis A,Engage in walking
+197,197,hepatitis A,Do posture correction
+198,198,hepatitis A,Try relaxation training
+199,199,hepatitis A,Avoid heavy workouts
+200,200,Hepatitis B,Practice yoga
+201,201,Hepatitis B,Do light stretching
+202,202,Hepatitis B,Perform meditation
+203,203,Hepatitis B,Engage in tai chi
+204,204,Hepatitis B,Do posture correction
+205,205,Hepatitis B,Perform mobility drills
+206,206,Hepatitis B,Try swimming
+207,207,Hepatitis B,Engage in walking
+208,208,Hepatitis B,Do breathing exercises
+209,209,Hepatitis B,Avoid strenuous workouts
+210,210,Hepatitis C,Engage in yoga
+211,211,Hepatitis C,Do meditation
+212,212,Hepatitis C,Practice breathing exercises
+213,213,Hepatitis C,Try light stretching
+214,214,Hepatitis C,Perform mobility drills
+215,215,Hepatitis C,Do posture correction
+216,216,Hepatitis C,Engage in walking
+217,217,Hepatitis C,Perform balance training
+218,218,Hepatitis C,Do tai chi
+219,219,Hepatitis C,Avoid heavy workouts
+220,220,Hepatitis D,Do yoga
+221,221,Hepatitis D,Engage in stretching
+222,222,Hepatitis D,Perform meditation
+223,223,Hepatitis D,Try tai chi
+224,224,Hepatitis D,Do posture correction
+225,225,Hepatitis D,Engage in light walking
+226,226,Hepatitis D,Perform balance drills
+227,227,Hepatitis D,Do mobility training
+228,228,Hepatitis D,Practice breathing exercises
+229,229,Hepatitis D,Avoid strenuous exercises
+230,230,Hepatitis E,Practice yoga
+231,231,Hepatitis E,Do meditation
+232,232,Hepatitis E,Engage in stretching
+233,233,Hepatitis E,Perform breathing exercises
+234,234,Hepatitis E,Try tai chi
+235,235,Hepatitis E,Do posture correction
+236,236,Hepatitis E,Engage in walking
+237,237,Hepatitis E,Perform mobility drills
+238,238,Hepatitis E,Practice relaxation
+239,239,Hepatitis E,Avoid heavy exercises
+240,240,Alcoholic hepatitis,Do yoga
+241,241,Alcoholic hepatitis,Practice breathing meditation
+242,242,Alcoholic hepatitis,Engage in stretching
+243,243,Alcoholic hepatitis,Perform posture correction
+244,244,Alcoholic hepatitis,Do mobility drills
+245,245,Alcoholic hepatitis,Try tai chi
+246,246,Alcoholic hepatitis,Engage in light walking
+247,247,Alcoholic hepatitis,Do balance training
+248,248,Alcoholic hepatitis,Try meditation
+249,249,Alcoholic hepatitis,Avoid strenuous workouts
+250,250,Tuberculosis,Practice breathing exercises
+251,251,Tuberculosis,Do yoga
+252,252,Tuberculosis,Engage in light walking
+253,253,Tuberculosis,Try tai chi
+254,254,Tuberculosis,Perform mobility drills
+255,255,Tuberculosis,Do stretching
+256,256,Tuberculosis,Practice posture correction
+257,257,Tuberculosis,Engage in meditation
+258,258,Tuberculosis,Do resistance band workouts
+259,259,Tuberculosis,Try relaxation training
+260,260,Common Cold,Do yoga
+261,261,Common Cold,Practice breathing exercises
+262,262,Common Cold,Engage in light stretching
+263,263,Common Cold,Perform tai chi
+264,264,Common Cold,Do meditation
+265,265,Common Cold,Engage in short walks
+266,266,Common Cold,Try relaxation exercises
+267,267,Common Cold,Do mobility drills
+268,268,Common Cold,Perform posture correction
+269,269,Common Cold,Avoid heavy workouts
+270,270,Pneumonia,Practice breathing exercises
+271,271,Pneumonia,Engage in yoga
+272,272,Pneumonia,Do stretching
+273,273,Pneumonia,Perform posture correction
+274,274,Pneumonia,Engage in tai chi
+275,275,Pneumonia,Do meditation
+276,276,Pneumonia,Perform mobility training
+277,277,Pneumonia,Engage in walking
+278,278,Pneumonia,Do relaxation drills
+279,279,Pneumonia,Avoid strenuous workouts
+280,280,Dimorphic hemmorhoids(piles),Do yoga
+281,281,Dimorphic hemmorhoids(piles),Engage in walking
+282,282,Dimorphic hemmorhoids(piles),Perform stretching
+283,283,Dimorphic hemmorhoids(piles),Try mobility training
+284,284,Dimorphic hemmorhoids(piles),Do posture correction
+285,285,Dimorphic hemmorhoids(piles),Engage in meditation
+286,286,Dimorphic hemmorhoids(piles),Perform core strengthening
+287,287,Dimorphic hemmorhoids(piles),Do balance drills
+288,288,Dimorphic hemmorhoids(piles),Engage in tai chi
+289,289,Dimorphic hemmorhoids(piles),Avoid heavy exercises
+290,290,Heart attack,Do cardiac rehab exercises
+291,291,Heart attack,Engage in walking
+292,292,Heart attack,Perform stretching
+293,293,Heart attack,Practice yoga
+294,294,Heart attack,Do light cycling
+295,295,Heart attack,Engage in tai chi
+296,296,Heart attack,Perform posture correction
+297,297,Heart attack,Do mobility training
+298,298,Heart attack,Engage in meditation
+299,299,Heart attack,Follow physiotherapist plan
+300,300,Varicose veins,Do leg elevation exercises
+301,301,Varicose veins,Engage in walking
+302,302,Varicose veins,Perform stretching
+303,303,Varicose veins,Practice yoga
+304,304,Varicose veins,Do swimming
+305,305,Varicose veins,Perform cycling
+306,306,Varicose veins,Engage in tai chi
+307,307,Varicose veins,Practice calf raises
+308,308,Varicose veins,Do mobility drills
+309,309,Varicose veins,Engage in balance exercises
+310,310,Hypothyroidism,Practice yoga
+311,311,Hypothyroidism,Do brisk walking
+312,312,Hypothyroidism,Engage in swimming
+313,313,Hypothyroidism,Perform cycling
+314,314,Hypothyroidism,Do resistance training
+315,315,Hypothyroidism,Engage in meditation
+316,316,Hypothyroidism,Perform posture correction
+317,317,Hypothyroidism,Do stretching
+318,318,Hypothyroidism,Engage in aerobics
+319,319,Hypothyroidism,Perform balance drills
+320,320,Hyperthyroidism,Practice yoga
+321,321,Hyperthyroidism,Do meditation
+322,322,Hyperthyroidism,Engage in swimming
+323,323,Hyperthyroidism,Perform stretching
+324,324,Hyperthyroidism,Engage in tai chi
+325,325,Hyperthyroidism,Do posture correction
+326,326,Hyperthyroidism,Perform mobility drills
+327,327,Hyperthyroidism,Try relaxation training
+328,328,Hyperthyroidism,Engage in walking
+329,329,Hyperthyroidism,Do balance training
+330,330,Hypoglycemia,Do brisk walking
+331,331,Hypoglycemia,Practice yoga
+332,332,Hypoglycemia,Engage in cycling
+333,333,Hypoglycemia,Perform resistance training
+334,334,Hypoglycemia,Do aerobics
+335,335,Hypoglycemia,Engage in swimming
+336,336,Hypoglycemia,Perform meditation
+337,337,Hypoglycemia,Do stretching
+338,338,Hypoglycemia,Engage in tai chi
+339,339,Hypoglycemia,Perform balance training
+340,340,Osteoarthristis,Do yoga
+341,341,Osteoarthristis,Practice tai chi
+342,342,Osteoarthristis,Engage in swimming
+343,343,Osteoarthristis,Perform stretching
+344,344,Osteoarthristis,Do cycling
+345,345,Osteoarthristis,Perform posture correction
+346,346,Osteoarthristis,Engage in mobility training
+347,347,Osteoarthristis,Do resistance band workouts
+348,348,Osteoarthristis,Engage in walking
+349,349,Osteoarthristis,Do balance training
+350,350,Arthritis,Engage in swimming
+351,351,Arthritis,Practice yoga
+352,352,Arthritis,Do tai chi
+353,353,Arthritis,Perform stretching
+354,354,Arthritis,Engage in walking
+355,355,Arthritis,Do cycling
+356,356,Arthritis,Perform posture correction
+357,357,Arthritis,Do mobility training
+358,358,Arthritis,Engage in balance drills
+359,359,Arthritis,Do low-impact aerobics
+360,360,(vertigo) Paroymsal  Positional Vertigo,Practice balance exercises
+361,361,(vertigo) Paroymsal  Positional Vertigo,Do tai chi
+362,362,(vertigo) Paroymsal  Positional Vertigo,Engage in yoga
+363,363,(vertigo) Paroymsal  Positional Vertigo,Perform posture correction
+364,364,(vertigo) Paroymsal  Positional Vertigo,Do stretching
+365,365,(vertigo) Paroymsal  Positional Vertigo,Engage in mobility training
+366,366,(vertigo) Paroymsal  Positional Vertigo,Practice relaxation exercises
+367,367,(vertigo) Paroymsal  Positional Vertigo,Do breathing meditation
+368,368,(vertigo) Paroymsal  Positional Vertigo,Engage in walking
+369,369,(vertigo) Paroymsal  Positional Vertigo,Avoid sudden head movements
+370,370,Acne,Practice yoga
+371,371,Acne,Engage in brisk walking
+372,372,Acne,Do stretching
+373,373,Acne,Perform posture correction
+374,374,Acne,Do tai chi
+375,375,Acne,Engage in mobility training
+376,376,Acne,Practice meditation
+377,377,Acne,Engage in swimming
+378,378,Acne,Do balance training
+379,379,Acne,Avoid heavy sweating workouts
+380,380,Urinary tract infection,Do yoga
+381,381,Urinary tract infection,Engage in walking
+382,382,Urinary tract infection,Perform stretching
+383,383,Urinary tract infection,Do mobility drills
+384,384,Urinary tract infection,Engage in tai chi
+385,385,Urinary tract infection,Practice relaxation techniques
+386,386,Urinary tract infection,Do posture correction
+387,387,Urinary tract infection,Engage in swimming
+388,388,Urinary tract infection,Perform balance training
+389,389,Urinary tract infection,Avoid heavy exercises
+390,390,Psoriasis,Practice yoga
+391,391,Psoriasis,Do stretching
+392,392,Psoriasis,Engage in swimming
+393,393,Psoriasis,Perform tai chi
+394,394,Psoriasis,Engage in meditation
+395,395,Psoriasis,Do posture correction
+396,396,Psoriasis,Perform mobility training
+397,397,Psoriasis,Do balance exercises
+398,398,Psoriasis,Engage in light aerobics
+399,399,Psoriasis,Try relaxation drills
+400,400,Impetigo,Practice yoga
+401,401,Impetigo,Engage in stretching
+402,402,Impetigo,Perform posture correction
+403,403,Impetigo,Do meditation
+404,404,Impetigo,Engage in light walking
+405,405,Impetigo,Do mobility training
+406,406,Impetigo,Practice relaxation
+407,407,Impetigo,Perform balance drills
+408,408,Impetigo,Engage in tai chi
+409,409,Impetigo,Avoid strenuous workouts

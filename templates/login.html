@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>MediSense AI - Login</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/static/css/login.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="/static/favicon.png"
+            alt=""
+            style="
+              width: 40px;
+              height: 40px;
+              border-radius: 50%;
+              margin-right: 8px;
+            "
+          />
+          MediSense AI
+        </a>
+      </div>
+    </nav>
+
+    <div
+      class="container d-flex justify-content-center align-items-center vh-100"
+    >
+      <div class="row w-100">
+        <!-- Left side (brand + tagline) -->
+        <div
+          class="col-md-6 d-flex flex-column justify-content-center align-items-start mb-4 mb-md-0"
+        >
+          <h1 class="brand">MediSense AI</h1>
+          <p class="tagline">Your AI-powered health companion.</p>
+        </div>
+
+        <!-- Right side (login box) -->
+        <div class="col-md-6 d-flex justify-content-center">
+          <div class="login-box w-100" style="max-width: 400px">
+            <form id="loginForm">
+              <div class="mb-3">
+                <input
+                  type="text"
+                  name="username"
+                  class="form-control form-control-lg"
+                  placeholder="Username or email"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="password"
+                  name="password"
+                  class="form-control form-control-lg"
+                  placeholder="Password"
+                  required
+                />
+              </div>
+              <button
+                type="submit"
+                class="btn btn-login btn-lg w-100 text-white"
+              >
+                Log in
+              </button>
+              <div id="messageBox" class="message"></div>
+            </form>
+            <div class="text-center mt-3">
+              <a href="#">Forgotten password?</a>
+            </div>
+            <hr style="border-color: #444" />
+            <div class="text-center">
+              <a
+                href="/register"
+                class="btn btn-register btn-lg w-100 text-white"
+                >Create new account</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document
+        .getElementById("loginForm")
+        .addEventListener("submit", async (e) => {
+          e.preventDefault();
+          const messageBox = document.getElementById("messageBox");
+          messageBox.innerHTML = ""; // clear previous message
+
+          const formData = new URLSearchParams();
+          formData.append("username", e.target.username.value);
+          formData.append("password", e.target.password.value);
+
+          try {
+            const response = await fetch("http://127.0.0.1:8000/login", {
+              method: "POST",
+              headers: { "Content-Type": "application/x-www-form-urlencoded" },
+              body: formData,
+            });
+            const data = await response.json();
+
+            if (data.access_token) {
+              messageBox.innerHTML =
+                "<span class='text-success'>✅ Login successful! Redirecting...</span>";
+              localStorage.setItem("token", data.access_token);
+              setTimeout(() => {
+                window.location.href = "/predict";
+              }, 1500);
+            } else {
+              messageBox.innerHTML =
+                "<span class='text-danger'>❌ " +
+                (data.detail || "Login failed") +
+                "</span>";
+            }
+          } catch (err) {
+            messageBox.innerHTML =
+              "<span class='text-danger'>⚠️ Error connecting to server</span>";
+          }
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
